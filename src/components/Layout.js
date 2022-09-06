@@ -1,4 +1,4 @@
-export default function Layout({children}) {
+export default function Layout({ children }) {
     return (
         <div className="App">
             <div className="header">
@@ -6,9 +6,7 @@ export default function Layout({children}) {
             </div>
 
             <div className="main">
-                <div class="container">
-                    {children}
-                </div>
+                <div className="container">{children}</div>
             </div>
 
             <div className="footer">&copy;2022 Learn with Sumit</div>

@@ -1,14 +1,14 @@
 import Balance from "./components/Balance";
 import Form from "./components/Form";
 import Layout from "./components/Layout";
-import Transactions from "./components/Transaction/Transactions";
+import Transactions from "./components/Transactions/Transactions";
 
 function App() {
     return (
         <Layout>
-        <Balance/>
+            <Balance />
             <Form />
-            <Transactions/>
+            <Transactions />
         </Layout>
     );
 }
